@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://img.freepik.com/free-vector/pastel-watercolor-painted-background_23-2148959637.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border1 {
+    padding-left: 20px;
+    color: white
+}
+
+.cart-icon {
+    padding-right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.about-section {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer .footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.Team{
+    font-family:'Dancing Script', cursive;;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px; 
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.5em; 
+    }
+
+    .cta-button {
+        font-size: 1.2em; 
+        padding: 8px 16px;
+    }
+
+    .products {
+        padding: 20px;
+    }
+
+    h2, h3, button {
+        font-size: 1.7em; 
+    }
+
+    p {
+        font-size: 1.2em; 
+    }
+
+    .product-grid {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .product-card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .product-card h3 {
+        font-size: 1.8em; 
+    }
+
+    .add-to-cart {
+        padding: 8px 16px;
+    }
+
+    .cart-section {
+        padding: 20px;
+    }
+
+    .cart-items {
+        gap: 10px;
+    }
+
+    .cart-total {
+        font-size: 1.8em; 
+    }
+
+    .checkout-button {
+        font-size: 1.2em; 
+        padding: 8px 16px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer .social-media a {
+        margin: 0 5px;
+    }
+}
